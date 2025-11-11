@@ -1,0 +1,8 @@
+node_modules/
+.expo/
+dist/
+android/
+ios/
+.DS_Store
+npm-debug.log*
+.env.local

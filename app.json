@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "MindMosaic",
+    "slug": "mindmosaic",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "mindmosaic",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mindmosaic.app"
+    },
+    "android": {
+      "package": "com.mindmosaic.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "plugins": [
+      "expo-localization",
+      "expo-notifications",
+      "expo-speech",
+      ["expo-build-properties", {"ios": {"useFrameworks": "static"}}]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  }
+}
