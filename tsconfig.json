@@ -1,0 +1,13 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["app/*"]
+    },
+    "types": ["jest", "react", "react-native"]
+  },
+  "include": ["app", "tests", "*.ts", "*.tsx"],
+  "exclude": ["node_modules", "android", "ios"]
+}
